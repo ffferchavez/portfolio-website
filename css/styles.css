@@ -1,0 +1,405 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #4b4b4b;
+  font-size: 18px;
+  color: #000;
+  /* Sets the font size to 16px */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 */
+  text-align: center;
+  position: relative;
+  background-image: url("/img/wp1.jpg");
+  background-size: cover;
+  font-family: 'Orbitron', sans-serif;
+}
+h1 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #000;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+}
+footer img {
+  height: 35px;
+  width: 35px;
+}
+a {
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  /* No underlining when hovering over a link */
+  text-decoration: underline;
+  transition: 0.5s;
+  color: #ac9306;
+}
+a:visited {
+  /* visited link */
+  color: #000;
+}
+a:active {
+  /* selected link */
+  color: #060eac;
+}
+button,
+.button,
+#submit-button {
+  background-color: #ac9306;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px 30px;
+  border: 2px solid #ffd700;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+}
+/*this is Element selector*/
+button:hover,
+button:focus,
+.button:hover,
+.button:focus,
+#submit-button:hover,
+#submit-button:focus {
+  /* takes the font from the outer container */
+  font-family: inherit;
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+  color: white;
+  text-decoration: none;
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+  cursor: pointer;
+  /* reduces the opacity of the button to 80% */
+  opacity: 0.7;
+  transition: 0.5s;
+}
+/*this is Class selector
+.button__secondary {
+  background-color: green;
+  color: #fff;
+  border-radius: 30px;
+  border: 2px solid dimgray;
+  padding: 10px;
+  margin: 0 auto;
+}
+/*this is ID selector
+#button__secondary:hover,
+button:focus {
+  /* overwrites browser defaults and resets the border --
+  border: none;
+  /* takes the font from the outer container --
+  font-family: inherit;
+  /* styles the background color, font color, and text decoration (underline, etc.) of the button --
+  color: #fff;
+  text-decoration: none;
+  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format --
+  cursor: pointer;
+  /* reduces the opacity of the button to 80%
+  opacity: 0.8;
+}*/
+#navigation-list__item--active {
+  text-decoration: none;
+}
+li {
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+span {
+  display: inline;
+  font-weight: 800;
+  padding: 2px 4px;
+  color: black;
+  background-color: #ac9306;
+  position: relative;
+  border-radius: 5px;
+}
+nav {
+  color: #000;
+}
+.profile__portrait {
+  width: 200px;
+  height: auto;
+  border: 3px solid #ac9306;
+}
+.profile__portrait:hover,
+.profile__portrait:focus {
+  overflow: hidden;
+  transition: transform 0.9s ease;
+  transform: scale(1.4);
+}
+.navigation-list {
+  float: inline-end;
+}
+#work-link:hover,
+#work-link:focus,
+#cv-link:hover,
+#cv-link:focus,
+nav a:hover,
+nav a:focus {
+  color: #ac9306;
+}
+.profile,
+main,
+#contact-form,
+.skills__table {
+  align-content: center;
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: inherit;
+  border: 3px solid #ac9306;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 100px;
+  background-color: #8d8c8a;
+  background-image: url("/img/wp1-2.jpg");
+  grid-gap: 5px;
+}
+.skills__table {
+  display: inline-block;
+}
+#skills-table {
+  color: #ac9306;
+  background-color: #4b4b4b;
+  border-radius: 10px;
+  border: 3px solid #ac9306;
+  margin: 10px auto;
+}
+#contact-form {
+  display: inline-grid;
+  margin: 10px auto;
+}
+main img {
+  border-radius: 5%;
+}
+.page-header {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  border: 2px solid #ac9306;
+  /*background-color: #dddcdc;*/
+  background-image: url("/img/wp1-2.jpg");
+  align-items: center;
+  justify-content: space-between;
+}
+.page-footer {
+  clear: both;
+  /*background-color: #dddcdc;*/
+  background-image: url("/img/wp1-2.jpg");
+  border: 2px solid #ac9306;
+}
+/*display: flex;
+  justify-content: center;
+  align-items: self-start;
+  border: 2px solid dimgray;
+  background-color: white;
+  padding: 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 100%;*/
+.page-header__item {
+  height: 60px;
+  border-radius: 5px;
+  border: 2px solid #000;
+}
+.page-header__item:hover,
+.page-header__item:hover {
+overflow: hidden;
+transition: transform 0.9s ease;
+transform: scale(1.3);
+}
+.navigation-list {
+  margin: 0;
+}
+.navigation-list li {
+  display: inline-block;
+  margin-left: 3px;
+  padding: 10px;
+}
+.page-header__item:last-child {
+  flex-grow: 1;
+  text-align: right;
+}
+.profile__text {
+  flex: 1 1 100px;
+}
+.social-media {
+  clear: both;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+  align-items: center;
+  flex: 1 1 100px;
+}
+/* start grid fallback --
+.grid__item {
+  display: inline-block;
+  width: 33%;
+ }
+  end grid fallback --
+ 
+--------------THIS DOES NOT WORK!!-------------
+ @supports (display: grid) {*/
+.grid {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  grid-gap: 30px;
+  justify-content: center;
+  margin: 100px auto;
+}
+.grid__item {
+  background-color: #e7e5e5d0;
+  border-radius: 3%;
+  border: 2px solid #ac9306;
+  padding: 20px 15px;
+}
+/*.grid__item:last-child {
+  grid-column: 2 / 2;
+  grid-row: 1 / 3;
+  background-color: red;
+}*/
+/* start grid fallback */
+.grid__item:hover,
+.grid__item:focus {
+  background-image: url("/img/wp1-2.jpg");
+  background-size: cover;
+  border: 3px solid #000;
+  transition: 1.2s;
+  transform: scale(1.1, 1.1);
+}/*
+main {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 10px solid dimgray;
+  border-radius: 50px;
+  margin: 10px auto;
+  padding: 100px;
+  text-align: center;
+  background-image: url("/img/back-image.jpg");
+  background-size: cover;
+}*/
+
+/*#skills__table {
+  background-image: url("/img/back-image.jpg");
+}
+/*
+section {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 10px solid dimgray;
+  border-radius: 50px;
+  margin: 10px auto;
+  padding: 100px;
+  background-color: #8d8c8a;
+  text-align: center;
+  background-image: url("/img/back-image.jpg");
+  background-size: cover;
+}*/
+#about-picture {
+  height: 300px;
+
+}
+.svg * {
+  transform-box: fill-box;
+}
+@keyframes color-change {
+  0% {
+    fill: #edc655;
+  }
+  50% {
+    fill: #fcffad;
+  }
+  100% {
+    fill: #f76414;
+  }
+}
+.sun {
+  animation-duration: 6s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 50px);
+  }
+  to {
+    transform: translate(200px, 50px);
+  }
+}
+.cloud-front {
+  animation-duration: 25s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+@keyframes cloud-move-reverse {
+  from {
+    transform: translate(446px, 48px);
+  }
+  to {
+    transform: translate(100px, 48px);
+  }
+}
+.cloud-back {
+  animation: 30s cloud-move-reverse infinite alternate linear;
+}
+/*MEDIA QUERIES AT THE END*/
+@media all and (max-width: 500px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  body {
+    font-size: 14px;
+  }
+  #contact-form {
+    font-size: 14px;
+  }
+}
+@media all and (min-width: 501px) and (max-width: 750px){
+  .grid {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  body {
+    font-size: 16px;
+  }
+/*fix CONTACT FORM and SKILLS TABLE!*/
+}
+@media all and (max-width: 1200px){
+  .grid {
+    -ms-grid-columns: 1fr 10px 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+ }
+ }

@@ -1,0 +1,364 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #408697;
+    font-size: 24px;
+    color: lightgrey;
+    /* Sets the font size to 16px */
+    line-height: 1.6;
+    /* Sets the line-height to 1.6 */
+    text-align: center;
+    position: relative;
+    background-image: url("/img/background-image.jpg");
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+  }
+  h1 {
+    font-size: 58px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+  }
+  h2 {
+    font-size: 42px;
+    font-weight: 600;
+  }
+  h3 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  footer img {
+    height: 30px;
+    width: 30px;
+  }
+  a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    /* No underlining when hovering over a link */
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  a:visited {
+    /* visited link */
+    color: white;
+  }
+  a:active {
+    /* selected link */
+    color: #52d6f4;
+  }
+  button,
+  .button {
+    background-color: #408697;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 50px 30px;
+    border: 2px solid #52d6f4;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
+  }
+  /*this is Element selector*/
+  button:hover,
+  button:focus,
+  .button:hover,
+  .button:focus {
+    /* takes the font from the outer container */
+    font-family: inherit;
+    /* styles the background color, font color, and text decoration (underline, etc.) of the button */
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
+    cursor: pointer;
+    /* reduces the opacity of the button to 80% */
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  /*this is Class selector
+  .button__secondary {
+    background-color: green;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid dimgray;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  /*this is ID selector
+  #button__secondary:hover,
+  button:focus {
+    /* overwrites browser defaults and resets the border --
+    border: none;
+    /* takes the font from the outer container --
+    font-family: inherit;
+    /* styles the background color, font color, and text decoration (underline, etc.) of the button --
+    color: #fff;
+    text-decoration: none;
+    /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format --
+    cursor: pointer;
+    /* reduces the opacity of the button to 80%
+    opacity: 0.8;
+  }*/
+  navigation-list__item--active {
+    text-decoration: none;
+  }
+  li {
+    margin: auto;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    text-align: end;
+  }
+  span {
+    display: inline;
+    font-weight: 800;
+    padding: 2px 4px;
+    color: black;
+    background-color: #52d6f4;
+    position: relative;
+    border-radius: 5px;
+  }
+  nav {
+    color: lightgray;
+  }
+  .profile__portrait {
+    float: none;
+    width: 250px;
+    height: auto;
+    border: 10px solid dimgray;
+  }
+  .profile__portrait:hover,
+  .profile__portrait:focus {
+    overflow: hidden;
+    transition: transform 0.9s ease;
+    transform: scale(1.3);
+  }
+  .navigation-list {
+    float: inline-end;
+  }
+  .profile,
+  main,
+  #contact-form,
+  .skills__table {
+    justify-content: center;
+    align-content: center;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    border: 10px solid dimgray;
+    border-radius: 50px;
+    margin: 10px auto;
+    padding: 100px;
+    background-color: #8d8c8a;
+    background-image: url("/img/back-image.jpg");
+    background-size: cover;
+    grid-gap: 5px;
+  }
+  .skills__table {
+    margin: 50px auto;
+    display: inline-block;
+  }
+  #skills-table {
+    color: #52d6f4;
+    background-color: #363538;
+    border-radius: 5px;
+  }
+  #contact-form {
+    display: inline-grid;
+  }
+  main img {
+    border-radius: 50%;
+  }
+  .page-header {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 10px solid dimgray;
+    background-color: #363538;
+    align-items: center;
+    justify-content: space-between;
+    border-end-end-radius: 25px;
+    border-end-start-radius: 25px;
+  }
+  .page-footer {
+    clear: both;
+    background-color: #363538;
+    border: 10px solid dimgray;
+    border-start-end-radius: 25px;
+    border-start-start-radius: 25px;
+  }
+  /*display: flex;
+    justify-content: center;
+    align-items: self-start;
+    border: 2px solid dimgray;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 100%;*/
+  .page-header__item {
+    height: 65px;
+    border-radius: 5px;
+  }
+  .navigation-list {
+    margin: 0;
+  }
+  .navigation-list li {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    color: white;
+  }
+  .page-header__item:last-child {
+    flex-grow: 1;
+    text-align: right;
+  }
+  .profile__text {
+    flex: 1 1 100px;
+  }
+  .social-media {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    align-items: center;
+    flex: 1 1 100px;
+  }
+  /* start grid fallback --
+  .grid__item {
+    display: inline-block;
+    width: 33%;
+   }
+    end grid fallback --
+   
+  --------------THIS DOES NOT WORK!!-------------
+   @supports (display: grid) {*/
+  .grid {
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-gap: 30px;
+    justify-content: center;
+    margin: 100px auto;
+  }
+  .grid__item {
+    background-color: #363538;
+    border-radius: 10%;
+    border: 5px solid dimgray;
+    padding: 20px 15px;
+    width: auto;
+  }
+  /*.grid__item:last-child {
+    grid-column: 2 / 2;
+    grid-row: 1 / 3;
+    background-color: red;
+  }*/
+  /* start grid fallback */
+  .grid__item:hover,
+  .grid__item:focus {
+    background-image: url("/img/back-image.jpg");
+    background-size: cover;
+    transition: 1.2s;
+    transform: scale(1.1, 1.1);
+  }
+  main {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 10px solid dimgray;
+    border-radius: 50px;
+    margin: 10px auto;
+    padding: 100px;
+    background-color: #8d8c8a;
+    text-align: center;
+    background-image: url("https://w0.peakpx.com/wallpaper/16/427/HD-wallpaper-abstract-3d-beauty-gray-s7-silver.jpg");
+    background-size: cover;
+  }
+  section {
+    max-width: 700px;
+    margin: 0 auto;
+    border: 10px solid dimgray;
+    border-radius: 50px;
+    margin: 10px auto;
+    padding: 100px;
+    background-color: #8d8c8a;
+    text-align: center;
+    background-image: url("https://w0.peakpx.com/wallpaper/16/427/HD-wallpaper-abstract-3d-beauty-gray-s7-silver.jpg");
+    background-size: cover;
+  }
+  #about-picture {
+    height: 400px;
+  }
+  .svg * {
+    transform-box: fill-box;
+  }
+  @keyframes color-change {
+    0% {
+      fill: #edc655;
+    }
+    50% {
+      fill: #fcffad;
+    }
+    100% {
+      fill: #f76414;
+    }
+  }
+  .sun {
+    animation-duration: 6s;
+    animation-name: color-change;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  @keyframes cloud-move {
+    from {
+      transform: translate(0, 50px);
+    }
+    to {
+      transform: translate(200px, 50px);
+    }
+  }
+  .cloud-front {
+    animation-duration: 25s;
+    animation-name: cloud-move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+  @keyframes cloud-move-reverse {
+    from {
+      transform: translate(446px, 48px);
+    }
+    to {
+      transform: translate(100px, 48px);
+    }
+  }
+  .cloud-back {
+    animation: 30s cloud-move-reverse infinite alternate linear;
+  }
+  
+  /*MEDIA QUERIES AT THE END*/
+  @media all and (max-width: 1200px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media all and (min-width: 1200px) and (max-width: 750px) {
+    .grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media all and (max-width: 1200px) {
+    .grid {
+      grid-gap: 10px;
+    }
+    .grid__item:last-child {
+      grid-column: auto / auto;
+      grid-row: auto / auto;
+    }
+    h1 {
+      font-size: 38px;
+    }
+  }

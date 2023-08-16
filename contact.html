@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- This is my first Website Skeleton (07/08/2023)-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.production.css" />
+    <title>[ Contact ]</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <!--Let's fix the size of the Logo-->
+      <a href="index.html">
+        <img
+          class="page-header__item"
+          src="img/robocode-logo3.jpg"
+          alt="This is an image of the Robo-code logo"
+        />
+        </a>
+      <nav class="main-navigation">
+        <ul role="menubar" class="navigation-list">
+          <li role="presentation">
+            <a
+              href="index.html"
+              role="menuitem"
+              class="navigation-list__item navigation-list__item--active"
+              >Home</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="about.html" role="menuitem" class="navigation-list__item"
+              >About Me</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="work.html" role="menuitem" class="navigation-list__item"
+              >Work</a
+            >
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem" class="navigation-list__item"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1>[ CONTACT ]</h1>
+      </div>
+      <nav>
+        <h2>Manuel Fernando<br> Chavez Duarte</h2>
+      <p>Dresdener Straße</p>
+        <p>47533, Kleve</p>
+        <p>Germany</p>
+        <br />
+        <a href="tel:+4915221795849"> Tel: (+49) 0 152 21795849</a>
+        <br />
+        <a href="ffferchavez@gmail.com">Email: ffferchavez@gmail.com</a>
+      </nav>
+    </main>
+
+      <form action="#" method="post" id="contact-form">
+        <h3>[Contact Form]</h3>
+        <label class="standard-label" for="contact-name">Name: </label>
+        <input type="text" id="contact-name" required />
+        <label class="standard-label" for="contact-company">Company: </label>
+        <input type="text" id="contact-company" required />
+        <label class="standard-label" for="contact-email">Email: </label>
+        <input type="email" id="contact-email" required />
+        <label class="standard-label" for="contact-telephone"
+          >Telephone:
+        </label>
+        <input type="tel" id="contact-telephone" />
+        <label class="standard-label" for="contact-message">Message: </label>
+        <textarea
+          rows="4"
+          cols="30"
+          id="contact-message"
+          maxlength="240"
+          required
+        ></textarea>
+        <br />
+        <input type="submit" id="submit-button" value="Send message" />
+      </form>
+      
+    <footer class="page-footer">
+      <p>Find me on</p>
+      <div class="social-media">
+        <a href="https://github.com/ffferchavez" target="_blank">
+        <img src="img/github.svg" alt="github-logo" />
+      </a>
+      <a href="https://www.linkedin.com/in/ffferchavez/" target="_blank">
+        <img src="img/linkedin.svg" alt="linkedin-logo" />
+      </a>
+      </div>
+    </footer>
+    <script src="js/tota11y.min.js"></script>
+  </body>
+</html>
