@@ -18,7 +18,8 @@
     /* Sets the line-height to 1.6 */
     text-align: center;
     position: relative;
-    background-image: url("/img/wp1.jpg");
+    /*background-image: url("/img/wp1.jpg");*/
+    background-image: image("/img/wp1.jpg");
     background-size: cover;
     font-family: 'Orbitron', sans-serif;
   }
