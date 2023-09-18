@@ -60,7 +60,7 @@ button,
   border-radius: 10px;
   padding: 10px;
   margin: 50px 30px;
-  border: 2px solid #ffd700;
+  border: 0.5px solid #ffd700;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.4);
 }
 /*this is Element selector*/
@@ -128,7 +128,7 @@ nav {
 .profile__portrait {
   width: 200px;
   height: auto;
-  border: 3px solid #ac9306;
+  border: 0.5px solid #ac9306;
 }
 .profile__portrait:hover,
 .profile__portrait:focus {
@@ -155,7 +155,7 @@ main,
   max-width: 700px;
   margin: 0 auto;
   text-align: inherit;
-  border: 3px solid #ac9306;
+  border: 0.5px solid #ac9306;
   border-radius: 10px;
   margin: 10px auto;
   padding: 100px;
@@ -170,7 +170,7 @@ main,
   color: #ac9306;
   background-color: #4b4b4b;
   border-radius: 10px;
-  border: 3px solid #ac9306;
+  border: 0.5px solid #ac9306;
   margin: 10px auto;
 }
 #contact-form {
@@ -185,7 +185,7 @@ main img {
   width: 100%;
   padding: 10px;
   margin: 0 auto;
-  border: 2px solid #ac9306;
+  border: 0.5px solid #ac9306;
   /*background-color: #dddcdc;*/
   background-image: url("../img/wp1-2.jpg");
   align-items: center;
@@ -195,7 +195,7 @@ main img {
   clear: both;
   /*background-color: #dddcdc;*/
   background-image: url("../img/wp1-2.jpg");
-  border: 2px solid #ac9306;
+  border: 0.5px solid #ac9306;
 }
 /*display: flex;
   justify-content: center;
@@ -209,7 +209,7 @@ main img {
 .page-header__item {
   height: 60px;
   border-radius: 5px;
-  border: 2px solid #000;
+  border: 0.5px solid #000;
 }
 .page-header__item:hover,
 .page-header__item:hover {
@@ -259,7 +259,7 @@ transform: scale(1.3);
 .grid__item {
   background-color: #e7e5e5d0;
   border-radius: 3%;
-  border: 2px solid #ac9306;
+  border: 0.5px solid #ac9306;
   padding: 20px 15px;
 }
 /*.grid__item:last-child {
@@ -272,7 +272,7 @@ transform: scale(1.3);
 .grid__item:focus {
   background-image: url("../img/wp1-2.jpg");
   background-size: cover;
-  border: 3px solid #000;
+  border: 0.5px solid #000;
   transition: 1.2s;
   transform: scale(1.1, 1.1);
 }/*
