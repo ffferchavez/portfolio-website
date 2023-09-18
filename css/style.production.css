@@ -139,12 +139,12 @@
   .profile__portrait {
     width: 200px;
     height: auto;
-    border: 3px solid #ac9306;
+    border: 0.5px solid #ac9306;
   }
   .profile__portrait:hover,
   .profile__portrait:focus {
     overflow: hidden;
-    border: 2px solid #252525;
+    border: 0.5px solid #252525;
     -webkit-transition: -webkit-transform 0.9s ease;
     transition: -webkit-transform 0.9s ease;
     transition: transform 0.9s ease;
@@ -172,7 +172,7 @@
     max-width: 700px;
     margin: 0 auto;
     text-align: inherit;
-    border: 3px solid #ac9306;
+    border: 0.5px solid #ac9306;
     border-radius: 10px;
     margin: 10px auto;
     padding: 100px;
@@ -187,7 +187,7 @@
     color: #ac9306;
     background-color: #4b4b4b;
     border-radius: 10px;
-    border: 3px solid #ac9306;
+    border: 0.5px solid #ac9306;
     margin: 10px auto;
   }
   #contact-form {
@@ -205,7 +205,7 @@
     width: 100%;
     padding: 10px;
     margin: 0 auto;
-    border: 2px solid #ac9306;
+    border: 0.5px solid #ac9306;
     background-color: #dddcdc;
     background-image: url("../img/wp1-2.jpg");
     -webkit-box-align: center;
@@ -219,7 +219,7 @@
     clear: both;
     background-color: #dddcdc;
     background-image: url("../img/wp1-2.jpg");
-    border: 2px solid #ac9306;
+    border: 0.5px solid #ac9306;
   }
   /*display: flex;
     justify-content: center;
@@ -303,7 +303,7 @@
   .grid__item {
     background-color: #e7e5e5d0;
     border-radius: 3%;
-    border: 2px solid #ac9306;
+    border: 0.5px solid #ac9306;
     padding: 20px 15px;
   }
   /*.grid__item:last-child {
@@ -316,7 +316,7 @@
   .grid__item:focus {
     background-image: url("../img/wp1-2.jpg");
     background-size: cover;
-    border: 3px solid #000;
+    border: 0.5px solid #000;
     -webkit-transition: 1.2s;
     transition: 1.2s;
     -webkit-transform: scale(1.1, 1.1);
