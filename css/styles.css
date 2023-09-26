@@ -2,9 +2,6 @@
   box-sizing: border-box;
 }
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
   background-color: #4b4b4b;
   font-size: 18px;
   color: #000;
@@ -17,9 +14,6 @@ body {
   background-size: cover;
   font-family: 'Orbitron', sans-serif;
 }
-content {
-  flex: 1;
-} 
 h1 {
   font-size: 34px;
   font-weight: 600;
@@ -198,7 +192,7 @@ main img {
   justify-content: space-between;
 }
 .page-footer {
-  clear: both;
+  /*clear: both;*/
   /*background-color: #dddcdc;*/
   background-image: url("../img/wp1-2.jpg");
   border: 0.5px solid #ac9306;
