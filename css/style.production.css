@@ -19,7 +19,7 @@
     text-align: center;
     position: relative;
     background-image: url("../img/wp1.jpg");
-    background-size: cover;
+    /*background-size: cover;*/
     font-family: 'Orbitron', sans-serif;
   }
   content {
