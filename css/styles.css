@@ -202,6 +202,10 @@ main img {
   /*background-color: #dddcdc;*/
   background-image: url("../img/wp1-2.jpg");
   border: 0.5px solid #ac9306;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 /*display: flex;
   justify-content: center;
