@@ -10,9 +10,6 @@
             box-sizing: border-box;
   }
   body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     background-color: #4b4b4b;
     font-size: 18px;
     color: #000;
@@ -200,6 +197,7 @@
     display: -ms-inline-grid;
     display: inline-grid;
     margin: 10px auto;
+
   }
   main img {
     border-radius: 5%;
@@ -223,10 +221,6 @@
   }
   .page-footer {
     /*clear: both;*/
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: #dddcdc;
     background-image: url("../img/wp1-2.jpg");
     border: 0.5px solid #ac9306;
